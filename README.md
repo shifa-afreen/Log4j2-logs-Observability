@@ -46,7 +46,7 @@ Located at `src/test/resources/log4j2.xml`. This config enables logs to be sent 
 
 3.  pom.xml — Required Dependencies
 
-You must include all the required dependencies in your `pom.xml` for logging and reporting:
+You must include all the required dependencies in your `pom.xml` for logging and reporting.
 
 
 4. Running the API Test : mvn clean test -Dtest=ApiTest
