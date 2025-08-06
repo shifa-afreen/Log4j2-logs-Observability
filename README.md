@@ -1,4 +1,4 @@
-Observability Log4j2 API D
+Observability Log4j2 API 
 
 This repo is a sample TestNG-based API test automation framework that demonstrates:
 
