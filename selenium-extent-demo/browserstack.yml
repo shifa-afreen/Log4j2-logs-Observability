@@ -1,0 +1,14 @@
+userName: <Username>
+accessKey: <AccessKey>
+framework: testng
+platforms:
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: Chromium
+    deviceOrientation: portrait
+parallelsPerPlatform: 1
+buildName: <BuildName>
+buildIdentifier: '${BUILD_NUMBER}'
+projectName: <ProjectName>
+networkLogs: true
+consoleLogs: info

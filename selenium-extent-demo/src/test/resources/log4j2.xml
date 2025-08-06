@@ -1,0 +1,18 @@
+<Configuration status="INFO">
+  <Appenders>
+    <ObservabilityLog4jAppender name="ObservabilityLog4jAppender">
+      <PatternLayout pattern="%m%n"/>
+    </ObservabilityLog4jAppender>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+
+  <Loggers>
+    <Root level="info">
+      <AppenderRef ref="ObservabilityLog4jAppender"/>
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+</Configuration>
+
